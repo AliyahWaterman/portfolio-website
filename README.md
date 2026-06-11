@@ -3,7 +3,7 @@
 My personal portfolio website, deployed on AWS using S3 for storage
 and CloudFront for HTTPS + global delivery.
 
-**Live URL:** d2lm54mkdej34l.cloudfront.net
+**Live URL:** https://d2lm54mkdej34l.cloudfront.net/
 
 ## What I Built
 - HTML + CSS portfolio site
