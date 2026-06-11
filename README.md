@@ -38,13 +38,7 @@ and CloudFront for HTTPS + global delivery.
               │ Hosting Enabled  │
               └──────────────────┘
 
-(Optional)
 
-       Custom Domain (Route 53)
-                    │
-                    ▼
-     aliyahportfolio.com → CloudFront
-```
 
 ### How It Works
 
