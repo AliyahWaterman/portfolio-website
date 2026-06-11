@@ -1,0 +1,77 @@
+```css
+body {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    background: #f0f9ff;
+    color: #333;
+    line-height: 1.6;
+}
+
+.hero {
+    background: linear-gradient(135deg, #a7d8ff, #7ec8ff);
+    color: #1e3a5f;
+    text-align: center;
+    padding: 80px 20px;
+}
+
+.hero h1 {
+    margin: 0;
+    font-size: 3rem;
+}
+
+.hero p {
+    font-size: 1.3rem;
+}
+
+.profile-pic {
+    width: 140px;
+    height: 140px;
+    border-radius: 50%;
+    border: 4px solid white;
+    object-fit: cover;
+    margin-bottom: 20px;
+}
+
+section {
+    max-width: 900px;
+    margin: 25px auto;
+    background: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 4px 15px rgba(126, 200, 255, 0.25);
+}
+
+h2 {
+    color: #4a90e2;
+    border-bottom: 2px solid #d6ecff;
+    padding-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+}
+
+li {
+    background: #e6f4ff;
+    margin: 10px 0;
+    padding: 12px;
+    border-radius: 10px;
+}
+
+a {
+    color: #4a90e2;
+    text-decoration: none;
+}
+
+a:hover {
+    color: #2563eb;
+    text-decoration: underline;
+}
+
+footer {
+    text-align: center;
+    padding: 25px;
+    color: #5f7a99;
+}
+```
