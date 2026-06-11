@@ -16,3 +16,40 @@ and CloudFront for HTTPS + global delivery.
 - How CloudFront distributes content globally
 - How to configure a bucket policy from scratch
 - Why HTTPS matters and how CloudFront handles certificates
+
+## Architecture
+
+```text
+                 ┌─────────────┐
+                 │   User      │
+                 │  (Browser)  │
+                 └──────┬──────┘
+                        │ HTTPS
+                        ▼
+              ┌──────────────────┐
+              │   CloudFront     │
+              │      (CDN)       │
+              └────────┬─────────┘
+                       │
+                       ▼
+              ┌──────────────────┐
+              │    S3 Bucket     │
+              │ Static Website   │
+              │ Hosting Enabled  │
+              └──────────────────┘
+
+(Optional)
+
+       Custom Domain (Route 53)
+                    │
+                    ▼
+     aliyahportfolio.com → CloudFront
+```
+
+### How It Works
+
+1. A user visits the website using the CloudFront URL.
+2. CloudFront serves content over HTTPS.
+3. CloudFront retrieves files from the S3 bucket.
+4. The S3 bucket stores the website files.
+5. CloudFront caches content globally for faster delivery.
